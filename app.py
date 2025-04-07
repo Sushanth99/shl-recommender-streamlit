@@ -11,7 +11,7 @@ load_dotenv()
 SEARCH_ENDPOINT = os.getenv("SEARCH_ENDPOINT") #"https://shl-assessment-recommender-lx8s.onrender.com/search"
 # SEARCH_ENDPOINT = "http://127.0.0.1:8000/search"
 
-st.title("SHL Assessment Recommendation System")
+st.title("SHL Assessment Recommendation System Demo")
 st.warning("The first time you run a query, it may take a minute to restart the server. Please be patient.")
 def display_result(response):
     """
